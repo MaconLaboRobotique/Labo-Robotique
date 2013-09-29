@@ -1,0 +1,110 @@
+/*
+A = moteur gauche
+C = moteur droit
+B = pelleteuse a biere
+
+3 = lumiere
+2 = boutton poussoir
+*/
+
+
+
+#define THRESHOLD 40
+#define INPUT_
+
+task main()
+{
+     int count = 0;
+
+     SetSensorType(IN_2, SENSOR_TYPE_COLORFULL);
+     while (true)                                                                 /* detection de couleur au sol + affichage de cette derniere sur l'ecran*/
+     {
+     OnFwd(OUT_AB,75);
+     SetSensorColorFull(S2);
+     ColorSensorReadType csr;
+     csr.Port = S2;
+     SysColorSensorRead(csr);
+     if (csr.Result == NO_ERR) {
+     NumOut(0, LCD_LINE1, csr.ColorValue);
+               if (csr.ColorValue == 1) {
+                  count = 0;
+                  
+                   OnFwd(OUT_AB,40);
+                   Wait(10);                                                             // Instructions a donner quand noir
+               }
+               else {
+                    count++;
+                    if(count > 125) count = 0;
+                    
+                   if(count > 50)
+                   {
+                        OnFwd(OUT_A, 50);
+                        OnRev(OUT_B, 50);
+                   }
+                   else
+                   {
+                    OnFwd(OUT_B, 50);
+                    OnRev(OUT_A, 50);                                                             //Instructions a donner quand different de noir
+                   }
+                   Wait(10);
+                   
+                   OnFwd(OUT_AB, 50);
+                   Wait(10);
+               }
+               
+     }
+     /*NumOut(0, LCD_LINE2, SENSOR_4);                                           TOUCH_SENSOR
+     if(SENSOR_4 == 1)
+     {
+      break;
+
+     }
+   }
+   SetSensor(IN_3,INPUT_WHITECOLOR);
+OnFwd(OUT_AC, 75);
+while (true)
+{
+if (Sensor(IN_3) > THRESHOLD)
+{
+OnRev(OUT_C, 75);
+Wait(100);
+until(Sensor(IN_3) <= THRESHOLD);
+OnFwd(OUT_AC, 75);
+}
+}
+     SetSensor(IN_2, SENSOR_TOUCH);
+     OnFwd(OUT_AC, 75);
+     while (true)
+     {
+           if (Sensor(IN_3) > THRESHOLD)
+           {
+              int lumiere = Sensor(IN_3);
+
+              OnRev(OUT_C, 75);
+              Wait(100);
+
+              if(Sensor(IN_3) > lumiere)
+              {
+                  OnRev(OUT_A, 75);
+                  Wait(100);
+                  
+                  until(Sensor(IN_3) <= THRESHOLD);
+                  OnFwd(OUT_AC, 75);
+              }
+              else
+              {
+                  until(Sensor(IN_3) <= THRESHOLD);
+                  OnFwd(OUT_AC, 75);
+              }
+           }
+           
+           //dans le cas ou il trouve une bière
+           if (SENSOR_2 == 1)
+           {
+              Off(OUT_AC);
+              break;
+           }
+     }
+     */
+     }
+}

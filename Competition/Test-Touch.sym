@@ -1,0 +1,135 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0main	5	1	0	4	2
+1	__D0main	6	1	4	4	4
+2	__HTMplexScaled	5	1	8	4	10
+3	__signed_stack_001main	6	1	12	4	2
+4	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	16	4	2
+5	__constVal346797	6	0	20	4	1
+6	__signed_stack_002main	6	1	24	4	2
+7	__HTMplexRaw	3	1	28	2	3
+8	__constVal339	4	0	30	2	1
+9	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	32	1	4
+10	__constVal0	2	1	33	1	4
+11	____initialize_global_data_return	1	1	34	1	3
+12	__main_7qG2_t1_7qG2_000	1	1	35	1	2
+13	__constVal63	2	0	36	1	1
+14	__constVal32	2	0	37	1	4
+15	__constVal1	2	0	38	1	4
+16	__constVal96	2	0	39	1	1
+17	__constVal3	2	0	40	1	1
+18	__ResetSensorTmp	1	1	41	1	2
+19	__PFTmp	1	1	42	1	1
+20	____ResetSensorSubroutine_return	1	1	43	1	3
+21	__constVal10	2	0	44	1	1
+22	__zfmain	1	1	45	1	4
+23	__constVal5	2	0	46	1	1
+24	__ResetSensorPort	1	1	47	1	3
+25	__TextOutArgs	8	0	4	16	5
+26	__TextOutArgs.Result	2	1	48	1	5
+27	__TextOutArgs.Location	8	0	2	4	5
+28	__TextOutArgs.Location.X	4	1	52	2	5
+29	__TextOutArgs.Location.Y	4	1	54	2	5
+30	__TextOutArgs.Text	7	0	56	4	5
+31	__TextOutArgs.Text.Text_type	1	0	0	1	0
+32	__TextOutArgs.Options	5	1	60	4	5
+33	__strbufmain	7	0	64	4	2
+34	__strbufmain.__strbufmain_type	1	0	0	1	0
+35	__constStr0009	7	0	66	4	1
+36	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	3	2	#line 3 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	4	2		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3	5	#line 3 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	3718	5	#line 3718 "NXCDefs.h"
+0	3719	5	#pragma macro 6
+0	3719	5		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	9		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	13		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3591	17	#line 3591 "NXCDefs.h"
+0	3718	17	#line 3718 "NXCDefs.h"
+0	4	17	#line 4 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	4	17	#line 4 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	5	17		set __D0main, 1
+0	5	20	#line 5 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	6	20		tst 5, __zfmain, __D0main
+0	5	23	#line 5 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	6	23		brtst 4, __NXC_Label_492, __zfmain
+0	5	26	#line 5 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	6	26	#pragma macro 12
+0	6	26		getin __HTMplexRaw, __constVal1, 2
+0	6	30		mul __HTMplexScaled, __HTMplexRaw, __constVal339
+0	6	34		sub __HTMplexScaled, __constVal346797, __HTMplexScaled
+0	6	38		div __HTMplexScaled, __HTMplexScaled, __HTMplexRaw
+0	6	42		add __HTMplexScaled, __HTMplexScaled, __constVal5
+0	6	46		div __HTMplexScaled, __HTMplexScaled, __constVal10
+0	6	50		and __main_7qG2_t1_7qG2_000, __HTMplexScaled, __constVal1
+0	3604	54	#line 3604 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	5	54	#line 5 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	5	54	#line 5 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	7	54	#line 7 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	8	54		mov __DU0main, __main_7qG2_t1_7qG2_000
+0	8	56	#line 8 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	56		tst 5, __zfmain, __DU0main
+0	8	59	#line 8 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	59		brtst 4, __NXC_Label_497, __zfmain
+0	8	62	#line 8 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	62		set __signed_stack_001main, 0
+0	8	65	#line 8 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	8	65	#line 8 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	65		set __signed_stack_002main, 56
+0	8	68	#line 8 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	8	68	#line 8 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	68		strcat __strbufmain, __constStr0009
+0	9	72	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	72	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	72		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	9	74	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	74		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	9	76	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	76		set __TextOutArgs.Options, 0
+0	9	79	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	79		mov __TextOutArgs.Text, __strbufmain
+0	9	81	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	81		syscall 13, __TextOutArgs
+0	9	84	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	84	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	84	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	9	84	#line 9 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	84		set __D0main, 50
+0	10	87	#line 10 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	11	87	#pragma macro 7
+0	11	87		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3651	110	#line 3651 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	110	#line 10 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	10	110	#line 10 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	11	110		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	10	113	#line 10 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	7921	113	#line 7921 "NXCDefs.h"
+0	7922	113		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	116	#line 7921 "NXCDefs.h"
+0	11	116	#line 11 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	12	116	#line 12 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	13	116		jmp __NXC_Label_492
+0	12	118	#line 12 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	16	118	#line 16 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	18	118	#line 18 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	19	118		jmp __NXC_Label_491
+0	18	120	#line 18 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+0	19	120		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	19	0	#line 19 "H:\Labo - Robotique\Compet'\Test-Touch.nxc"
+2	20	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	H:\Labo - Robotique\Compet\Test-Touch.nxc
+1	__ResetSensorSubroutine	123	NXTDefs.h
+2	__initialize_global_data	136	H:\Labo - Robotique\Compet\Test-Touch.nxc

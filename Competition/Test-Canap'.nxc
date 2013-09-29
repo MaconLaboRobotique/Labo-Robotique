@@ -1,0 +1,43 @@
+/*
+A = Moteur Droite
+B = Moteur Gauche
+
+1 = Capteur Couleur
+2 = Capteur Touché
+3 = Capteur Sonore
+*/
+
+#define INPUT_
+
+
+task main()
+{
+     SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+     SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+     SetSensorUltrasonic(IN_3);
+     SetSensorUltrasonic(IN_4);
+     int i,w,x,y,z,count=0,dist=20;
+
+     while(true)                                                                 //Attention au Canapé
+     {
+          OnFwd(OUT_A,57);
+          OnFwd(OUT_B,50);
+          NumOut(0,LCD_LINE1,SensorUS(IN_4));
+          if(SensorUS(IN_3) < dist)
+          {
+              Off(OUT_AB);
+              while(SensorUS(IN_4) < 50)
+              {
+                  OnRev(OUT_A, 57);
+                  OnRev(OUT_B,50);
+              }
+              break;
+          }
+     }
+     OnFwd(OUT_AB,20);
+     Wait(100);
+     while(SensorUS(IN_4) > 10)
+     {
+        OnFwd(OUT_A,50);
+     }
+}

@@ -1,0 +1,15 @@
+task main()
+{
+     SetSensorLight(IN_3);
+     OnFwd(OUT_BC,75);
+     while (true)
+     {
+           if (Sensor(IN_3) > 40)
+           {
+              OnRev (OUT_C,75);
+              Wait(100);
+              until(Sensor(IN_3) <= 40);
+              OnFwd(OUT_BC,75);
+           }
+     }
+}

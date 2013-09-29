@@ -1,0 +1,699 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__rotate_theAngle0	5	1	0	4	2
+1	__signed_stack_002main	6	1	4	4	2
+2	__RLSBmutex2	9	0	8	4	2
+3	__CLSRMutex2	9	0	12	4	2
+4	__rotate_theAngle1	5	1	16	4	2
+5	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	20	4	3
+6	__D0main	6	1	24	4	42
+7	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	28	4	2
+8	__signed_stack_001main	6	1	32	4	16
+9	__rotate_angle1	6	1	36	4	6
+10	__CLSWMutex2	9	0	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	14
+12	__rotate_angle0	6	1	48	4	6
+13	__CLSCSMutex2	9	0	52	4	2
+14	__rotate_RotCount0	4	1	56	2	4
+15	__rotate_OldRotCount1	4	1	58	2	2
+16	__constValNeg200	4	0	60	2	1
+17	__rotate_OldRotCount0	4	1	62	2	2
+18	__main_7qG2_i_7qG2_000	4	1	64	2	4
+19	__main_7qG2_count_7qG2_000	4	1	66	2	4
+20	__rotate_RotCount1	4	1	68	2	4
+21	__constVal2	2	0	70	1	1
+22	__constVal13	2	0	71	1	1
+23	__RLSBIterations2	1	1	72	1	4
+24	__constVal3	2	0	73	1	17
+25	__RLSBytesCount2	1	1	74	1	7
+26	____ResetSensorSubroutine_return	1	1	75	1	4
+27	____ReadLSBytes2_return	1	1	76	1	3
+28	__constVal15	2	0	77	1	3
+29	__RLSBResult2	2	1	78	1	7
+30	__ResetSensorPort	1	1	79	1	4
+31	__ResetSensorTmp	1	1	80	1	2
+32	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	81	1	2
+33	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	82	1	2
+34	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	83	1	2
+35	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	84	1	2
+36	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	85	1	2
+37	__constVal63	2	0	86	1	17
+38	__constVal57	2	0	87	1	3
+39	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	88	1	4
+40	__constVal96	2	0	89	1	21
+41	__PFTmp	1	1	90	1	1
+42	__zfmain	1	1	91	1	15
+43	__constVal100	2	0	92	1	1
+44	__constValNeg100	2	0	93	1	2
+45	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	94	1	2
+46	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	95	1	4
+47	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	96	1	4
+48	____initialize_global_data_return	1	1	97	1	3
+49	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	98	1	4
+50	__rotate_thePower0	2	1	99	1	4
+51	__rotate_theTurnPct0	2	1	100	1	4
+52	__rotate_rs0	1	1	101	1	2
+53	__rotate_theRVI0	1	1	102	1	3
+54	__rotate_theRVD0	1	1	103	1	3
+55	__rotate_power1	1	1	104	1	5
+56	__rotate_turnpct1	2	1	105	1	4
+57	__rotate_theUF1	1	1	106	1	6
+58	__rotate_stop1	1	1	107	1	3
+59	__rotate_firstPort1	1	1	108	1	5
+60	__rotate_sync1	1	1	109	1	3
+61	__rotate_sync0	1	1	110	1	3
+62	__rotate_stop0	1	1	111	1	3
+63	__rotate_firstPort0	1	1	112	1	5
+64	__OnRev_Tmp	2	1	113	1	12
+65	__rotate_power0	1	1	114	1	5
+66	__rotate_turnpct0	2	1	115	1	4
+67	__rotate_theRS0	1	1	116	1	3
+68	__rotate_theRVP0	1	1	117	1	3
+69	__rotate_theRM0	1	1	118	1	4
+70	__rotate_theUF0	1	1	119	1	6
+71	__rotate_theOM0	1	1	120	1	7
+72	__rotate_theOM1	1	1	121	1	7
+73	____RotateMotor0_return	1	1	122	1	4
+74	____RotateMotor0_sign_tmp	2	1	123	1	4
+75	__rotate_thePower1	2	1	124	1	4
+76	__rotate_theTurnPct1	2	1	125	1	4
+77	__constVal0	2	1	126	1	83
+78	__constVal50	2	0	127	1	4
+79	__constVal32	2	0	128	1	61
+80	__constVal1	2	0	129	1	22
+81	____RotateMotor1_return	1	1	130	1	4
+82	__rotate_theRVI1	1	1	131	1	3
+83	__rotate_theRS1	1	1	132	1	3
+84	__rotate_theRVP1	1	1	133	1	3
+85	__rotate_theRM1	1	1	134	1	4
+86	__rotate_rs1	1	1	135	1	2
+87	__rotate_theRVD1	1	1	136	1	3
+88	____RotateMotor1_sign_tmp	2	1	137	1	4
+89	__CLSCSArgs2	8	0	3	4	4
+90	__CLSCSArgs2.Result	2	1	140	1	4
+91	__CLSCSArgs2.Port	1	1	141	1	4
+92	__CLSCSArgs2.BytesReady	1	1	142	1	4
+93	__CLSRArgs2	8	0	4	12	5
+94	__CLSRArgs2.Result	2	1	144	1	5
+95	__CLSRArgs2.Port	1	1	145	1	5
+96	__CLSRArgs2.Buffer	7	0	146	4	5
+97	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+98	__CLSRArgs2.BufferLen	1	1	148	1	5
+99	__main_7qG2_csr_7qG2_001	8	0	7	20	4
+100	__main_7qG2_csr_7qG2_001.Result	2	1	152	1	4
+101	__main_7qG2_csr_7qG2_001.Port	1	1	153	1	4
+102	__main_7qG2_csr_7qG2_001.ColorValue	4	1	154	2	4
+103	__main_7qG2_csr_7qG2_001.RawArray	7	0	156	4	4
+104	__main_7qG2_csr_7qG2_001.RawArray.RawArray_type	3	0	0	2	0
+105	__main_7qG2_csr_7qG2_001.NormalizedArray	7	0	158	4	4
+106	__main_7qG2_csr_7qG2_001.NormalizedArray.NormalizedArray_type	3	0	0	2	0
+107	__main_7qG2_csr_7qG2_001.ScaledArray	7	0	160	4	4
+108	__main_7qG2_csr_7qG2_001.ScaledArray.ScaledArray_type	4	0	0	2	0
+109	__main_7qG2_csr_7qG2_001.Invalid	1	1	162	1	4
+110	__CLSWArgs2	8	0	4	12	5
+111	__CLSWArgs2.Result	2	1	164	1	5
+112	__CLSWArgs2.Port	1	1	165	1	5
+113	__CLSWArgs2.Buffer	7	0	166	4	5
+114	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+115	__CLSWArgs2.ReturnLen	1	1	168	1	5
+116	__rotate_ports0	7	0	170	4	7
+117	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+118	__OUT_AB	7	0	172	4	3
+119	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+120	__rotate_ports1	7	0	174	4	7
+121	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+122	__RLSReadBuf2	7	0	176	4	8
+123	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+124	__RLSBbufLSWrite1	7	0	178	4	1
+125	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+126	__RLSLastGoodRead2	7	0	180	4	2
+127	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	14	0	#line 14 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	15	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	14	2	#line 14 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	14	2	#line 14 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	15	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	14	5	#line 14 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	14	5	#line 14 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	15	5		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 13
+0	14	8	#line 14 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	3663	8	#line 3663 "NXCDefs.h"
+0	3664	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	12	#line 3663 "NXCDefs.h"
+0	15	12	#line 15 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	15	12	#line 15 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	16	12		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 1
+0	15	15	#line 15 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	15	15	#line 15 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	16	15		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 1
+0	15	18	#line 15 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	3663	18	#line 3663 "NXCDefs.h"
+0	3664	18		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	22	#line 3663 "NXCDefs.h"
+0	16	22	#line 16 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	16	22	#line 16 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	16	22	#line 16 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	3768	22	#line 3768 "NXCDefs.h"
+0	3769	22		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal2
+0	3768	24	#line 3768 "NXCDefs.h"
+0	3768	24	#line 3768 "NXCDefs.h"
+0	3769	24		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	26	#line 3758 "NXCDefs.h"
+0	3759	26		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	28	#line 3758 "NXCDefs.h"
+0	3758	28	#line 3758 "NXCDefs.h"
+0	3759	28		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	30	#line 3758 "NXCDefs.h"
+0	3759	30		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	33	#line 3758 "NXCDefs.h"
+0	3759	33		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	36	#line 3758 "NXCDefs.h"
+0	3759	36		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	39	#line 3758 "NXCDefs.h"
+0	3759	39		jmp __001__001__NXC_Label_37
+0	3758	41	#line 3758 "NXCDefs.h"
+0	3759	41		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	44	#line 3758 "NXCDefs.h"
+0	3759	44		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	46	#line 3663 "NXCDefs.h"
+0	3664	46		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	50	#line 3663 "NXCDefs.h"
+0	3759	50	#line 3759 "NXCDefs.h"
+0	3759	50	#line 3759 "NXCDefs.h"
+0	3760	50		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	52	#line 3759 "NXCDefs.h"
+0	3759	52	#line 3759 "NXCDefs.h"
+0	3760	52		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	55	#line 3759 "NXCDefs.h"
+0	3676	55	#line 3676 "NXCDefs.h"
+0	3677	55		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	59	#line 3676 "NXCDefs.h"
+0	3760	59	#line 3760 "NXCDefs.h"
+0	3760	59	#line 3760 "NXCDefs.h"
+0	3760	59	#line 3760 "NXCDefs.h"
+0	3694	59	#line 3694 "NXCDefs.h"
+0	3695	59	#pragma macro 4
+0	3695	59		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	61		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3789	63	#line 3789 "NXCDefs.h"
+0	3694	63	#line 3694 "NXCDefs.h"
+0	3761	63	#line 3761 "NXCDefs.h"
+0	3768	63	#line 3768 "NXCDefs.h"
+0	17	63	#line 17 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	17	63	#line 17 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	18	63		set __main_7qG2_count_7qG2_000, 7
+0	17	66	#line 17 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	19	66	#line 19 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	19	66	#line 19 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	20	66	#line 20 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	21	66		set __D0main, 1
+0	21	69	#line 21 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	22	69		tst 5, __zfmain, __D0main
+0	21	72	#line 21 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	22	72		brtst 4, __NXC_Label_504, __zfmain
+0	21	75	#line 21 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	22	75		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	21	78	#line 21 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	3802	78	#line 3802 "NXCDefs.h"
+0	3803	78	#pragma macro 6
+0	3803	78		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	3803	82		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	3803	86		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	3803	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3854	90	#line 3854 "NXCDefs.h"
+0	3802	90	#line 3802 "NXCDefs.h"
+0	22	90	#line 22 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	24	90	#line 24 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	25	90		set __main_7qG2_csr_7qG2_001.Port, 0
+0	24	93	#line 24 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	24	93	#line 24 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	25	93	#line 25 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	26	93	#pragma macro 4
+0	26	93	#line 26 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	26	93		syscall 34, __main_7qG2_csr_7qG2_001
+0	24	96	#line 24 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	24	96	#line 24 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	24	96	#line 24 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	24	96	#line 24 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	26	96	#line 26 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	25	96	#line 25 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	26	96	#line 26 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	27	96		set __D0main, 53
+0	27	99	#line 27 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	28	99	#pragma macro 7
+0	28	99		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3884	122	#line 3884 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	27	122	#line 27 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	27	122	#line 27 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	28	122		set __D0main, 50
+0	29	125	#line 29 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	30	125	#pragma macro 7
+0	30	125		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3891	148	#line 3891 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	29	148	#line 29 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	29	148	#line 29 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	30	148	#pragma macro 26
+0	30	148		acquire __RLSBmutex2
+0	30	149		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	30	151		set __RLSBytesCount2, 1
+0	30	154		wait2 NA, __constVal15
+0	30	157		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	30	159		index __D0main, __RLSReadBuf2, 65535
+0	30	163		release __RLSBmutex2
+0	3894	164	#line 3894 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	29	164	#line 29 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	30	164		mov __signed_stack_001main, __D0main
+0	30	166	#line 30 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	31	166		set __D0main, 20
+0	30	169	#line 30 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	31	169		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	30	173	#line 30 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	31	173		mov __D0main, __zfmain
+0	31	175	#line 31 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	32	175		brtst 4, __NXC_Label_517, __zfmain
+0	32	178	#line 32 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	33	178	#pragma macro 7
+0	33	178		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3908	201	#line 3908 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	32	201	#line 32 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	32	201	#line 32 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	33	201		set __signed_stack_001main, 57
+0	32	204	#line 32 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	32	204	#line 32 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	33	204		mov __D0main, __constValNeg200
+0	33	206	#line 33 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	34	206	#pragma macro 33
+0	34	206		arrbuild __rotate_ports0, __constVal0
+0	34	210		mov __rotate_power0, __signed_stack_001main
+0	34	212		mov __rotate_angle0, __D0main
+0	34	214		mov __rotate_turnpct0, __constVal0
+0	34	216		mov __rotate_sync0, __constVal0
+0	34	218		mov __rotate_stop0, __constVal1
+0	34	220		mov __rotate_theRVP0, __constVal32
+0	34	222		mov __rotate_theRVI0, __constVal0
+0	34	224		mov __rotate_theRVD0, __constVal96
+0	34	226		subcall __RotateMotor0, ____RotateMotor0_return
+0	3921	228	#line 3921 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	33	228	#line 33 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	33	228	#line 33 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	34	228		set __signed_stack_001main, 50
+0	33	231	#line 33 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	33	231	#line 33 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	34	231		set __D0main, 200
+0	34	234	#line 34 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	35	234	#pragma macro 33
+0	35	234		arrbuild __rotate_ports1, __constVal1
+0	35	238		mov __rotate_power1, __signed_stack_001main
+0	35	240		mov __rotate_angle1, __D0main
+0	35	242		mov __rotate_turnpct1, __constVal0
+0	35	244		mov __rotate_sync1, __constVal0
+0	35	246		mov __rotate_stop1, __constVal1
+0	35	248		mov __rotate_theRVP1, __constVal32
+0	35	250		mov __rotate_theRVI1, __constVal0
+0	35	252		mov __rotate_theRVD1, __constVal96
+0	35	254		subcall __RotateMotor1, ____RotateMotor1_return
+0	3934	256	#line 3934 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	34	256	#line 34 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	36	256	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	36	256	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	256		mov __signed_stack_001main, __main_7qG2_csr_7qG2_001.ColorValue
+0	36	258	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	36	258	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	258		set __D0main, 3
+0	36	261	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	261		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	36	265	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	265		mov __D0main, __zfmain
+0	36	267	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	267		brtst 4, __NXC_Label_527, __zfmain
+0	36	270	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	270		mov __signed_stack_001main, __D0main
+0	36	272	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	272		mov __signed_stack_002main, __main_7qG2_count_7qG2_000
+0	36	274	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	36	274	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	274		set __D0main, 7
+0	36	277	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	277		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	36	281	#line 36 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	37	281	#line 37 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	38	281		and __D0main, __signed_stack_001main, __zfmain
+0	38	285	#line 38 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	39	285		tst 5, __zfmain, __D0main
+0	38	288	#line 38 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	39	288		brtst 4, __NXC_Label_532, __zfmain
+0	38	291	#line 38 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	39	291	#line 39 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	40	291	#pragma macro 10
+0	40	291		neg __OnRev_Tmp, __constVal57
+0	40	294		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3979	317	#line 3979 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	39	317	#line 39 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	39	317	#line 39 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	40	317	#line 40 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	41	317	#pragma macro 10
+0	41	317		neg __OnRev_Tmp, __constVal50
+0	41	320		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3986	343	#line 3986 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	40	343	#line 40 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	40	343	#line 40 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	41	343		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
+0	40	346	#line 40 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	7921	346	#line 7921 "NXCDefs.h"
+0	7922	346		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	349	#line 7921 "NXCDefs.h"
+0	41	349	#line 41 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	41	349	#line 41 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	42	349	#line 42 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	43	349	#pragma macro 10
+0	43	349		neg __OnRev_Tmp, __constVal57
+0	43	352		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4007	375	#line 4007 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	42	375	#line 42 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	42	375	#line 42 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	43	375		set __D0main, 50
+0	43	378	#line 43 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	44	378	#pragma macro 7
+0	44	378		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4014	401	#line 4014 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	43	401	#line 43 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	43	401	#line 43 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	44	401		set __Wait_7qG2_ms_7qG2_000_inline_main, 1500
+0	43	404	#line 43 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	7921	404	#line 7921 "NXCDefs.h"
+0	7922	404		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	407	#line 7921 "NXCDefs.h"
+0	44	407	#line 44 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	45	407	#line 45 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	46	407	#pragma macro 7
+0	46	407		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4027	430	#line 4027 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	45	430	#line 45 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	45	430	#line 45 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	46	430		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	45	433	#line 45 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	7921	433	#line 7921 "NXCDefs.h"
+0	7922	433		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	436	#line 7921 "NXCDefs.h"
+0	47	436	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	47	436	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	48	436		set __main_7qG2_i_7qG2_000, 0
+0	47	439	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	47	439	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	48	439		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	47	441	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	47	441	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	48	441		set __D0main, 4
+0	47	444	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	48	444		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	47	448	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	48	448		mov __D0main, __zfmain
+0	47	450	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	48	450		brtst 4, __NXC_Label_548, __zfmain
+0	47	453	#line 47 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	48	453		jmp __NXC_Label_549
+0	48	455	#line 48 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	49	455		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	49	459	#line 49 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	50	459		jmp __NXC_Label_547
+0	49	461	#line 49 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	50	461		set __signed_stack_001main, 100
+0	49	464	#line 49 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	49	464	#line 49 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	50	464		mov __D0main, __constValNeg100
+0	50	466	#line 50 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	51	466	#pragma macro 33
+0	51	466		arrbuild __rotate_ports0, __constVal0
+0	51	470		mov __rotate_power0, __signed_stack_001main
+0	51	472		mov __rotate_angle0, __D0main
+0	51	474		mov __rotate_turnpct0, __constVal0
+0	51	476		mov __rotate_sync0, __constVal0
+0	51	478		mov __rotate_stop0, __constVal1
+0	51	480		mov __rotate_theRVP0, __constVal32
+0	51	482		mov __rotate_theRVI0, __constVal0
+0	51	484		mov __rotate_theRVD0, __constVal96
+0	51	486		subcall __RotateMotor0, ____RotateMotor0_return
+0	4079	488	#line 4079 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	50	488	#line 50 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	50	488	#line 50 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	51	488		set __signed_stack_001main, 100
+0	50	491	#line 50 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	50	491	#line 50 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	51	491		mov __D0main, __constValNeg100
+0	51	493	#line 51 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	52	493	#pragma macro 33
+0	52	493		arrbuild __rotate_ports1, __constVal1
+0	52	497		mov __rotate_power1, __signed_stack_001main
+0	52	499		mov __rotate_angle1, __D0main
+0	52	501		mov __rotate_turnpct1, __constVal0
+0	52	503		mov __rotate_sync1, __constVal0
+0	52	505		mov __rotate_stop1, __constVal1
+0	52	507		mov __rotate_theRVP1, __constVal32
+0	52	509		mov __rotate_theRVI1, __constVal0
+0	52	511		mov __rotate_theRVD1, __constVal96
+0	52	513		subcall __RotateMotor1, ____RotateMotor1_return
+0	4092	515	#line 4092 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	51	515	#line 51 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	52	515	#line 52 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	53	515		jmp __NXC_Label_550
+0	52	517	#line 52 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	53	517	#line 53 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	54	517		add __main_7qG2_count_7qG2_000, __main_7qG2_count_7qG2_000, __constVal1
+0	53	521	#line 53 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	53	521	#line 53 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	54	521	#line 54 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	55	521	#pragma macro 10
+0	55	521		neg __OnRev_Tmp, __constVal57
+0	55	524		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4106	547	#line 4106 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	54	547	#line 54 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	54	547	#line 54 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	55	547		set __D0main, 50
+0	55	550	#line 55 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	56	550	#pragma macro 7
+0	56	550		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4113	573	#line 4113 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	55	573	#line 55 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	55	573	#line 55 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	56	573		set __Wait_7qG2_ms_7qG2_000_inline_main, 2500
+0	55	576	#line 55 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	7921	576	#line 7921 "NXCDefs.h"
+0	7922	576		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	579	#line 7921 "NXCDefs.h"
+0	56	579	#line 56 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	56	579	#line 56 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	57	579		set __D0main, 57
+0	57	582	#line 57 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	58	582	#pragma macro 7
+0	58	582		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4130	605	#line 4130 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	57	605	#line 57 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	57	605	#line 57 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	58	605	#line 58 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	59	605	#pragma macro 10
+0	59	605		neg __OnRev_Tmp, __constVal50
+0	59	608		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4137	631	#line 4137 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	58	631	#line 58 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	58	631	#line 58 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	59	631		set __Wait_7qG2_ms_7qG2_000_inline_main, 2500
+0	58	634	#line 58 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	7921	634	#line 7921 "NXCDefs.h"
+0	7922	634		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	637	#line 7921 "NXCDefs.h"
+0	59	637	#line 59 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	59	637	#line 59 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	60	637		set __D0main, 57
+0	60	640	#line 60 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	61	640	#pragma macro 7
+0	61	640		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4154	663	#line 4154 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	60	663	#line 60 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	60	663	#line 60 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	61	663		set __D0main, 50
+0	61	666	#line 61 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	62	666	#pragma macro 7
+0	62	666		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4161	689	#line 4161 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	61	689	#line 61 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	62	689	#line 62 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	63	689	#pragma macro 7
+0	63	689		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4164	712	#line 4164 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	62	712	#line 62 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	62	712	#line 62 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	63	712		set __D0main, 100
+0	63	715	#line 63 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	64	715	#pragma macro 7
+0	64	715		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4171	738	#line 4171 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	63	738	#line 63 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	63	738	#line 63 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	64	738		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	63	741	#line 63 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	7921	741	#line 7921 "NXCDefs.h"
+0	7922	741		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	744	#line 7921 "NXCDefs.h"
+0	64	744	#line 64 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	64	744	#line 64 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	65	744	#line 65 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	66	744	#pragma macro 10
+0	66	744		neg __OnRev_Tmp, __constVal100
+0	66	747		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4188	770	#line 4188 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	65	770	#line 65 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	65	770	#line 65 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	66	770		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	65	773	#line 65 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	7921	773	#line 7921 "NXCDefs.h"
+0	7922	773		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	776	#line 7921 "NXCDefs.h"
+0	66	776	#line 66 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	67	776	#line 67 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	68	776		jmp __NXC_Label_504
+0	67	778	#line 67 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	70	778	#line 70 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	73	778	#line 73 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	74	778		jmp __NXC_Label_503
+0	73	780	#line 73 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+0	74	780		exit -1, -1
+1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	4477	3		set ____RotateMotor0_sign_tmp, 0
+1	4477	6		brtst EQ, __sign_0, __rotate_angle0
+1	4477	9		set ____RotateMotor0_sign_tmp, -1
+1	4477	12		brtst LT, __sign_0, __rotate_angle0
+1	4477	15		set ____RotateMotor0_sign_tmp, 1
+1	4477	18	__sign_0:	mov __rotate_thePower0, ____RotateMotor0_sign_tmp
+1	4478	20		abs __rotate_theAngle0, __rotate_angle0
+1	4479	23		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	4481	27		set __rotate_theUF0, 23
+1	4482	30		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	4483	33		set __rotate_theOM0, 7
+1	4484	36		set __rotate_theRM0, 2
+1	4485	39		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	4486	41		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	4487	44		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	4488	48		jmp __rotate_Start0
+1	4490	50		set __rotate_theOM0, 3
+1	4491	53		set __rotate_theRM0, 0
+1	4492	56		set __rotate_theTurnPct0, 0
+1	4494	59		set __rotate_theRS0, 32
+1	4495	62		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	4498	85		index __rotate_firstPort0, __rotate_ports0, 65535
+1	4500	89		getout __rotate_power0, __rotate_firstPort0, 2
+1	4501	93		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	4502	96		getout __rotate_rs0, __rotate_firstPort0, 6
+1	4503	100		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	4505	104		brtst 4, __rotate_Reset0, __rotate_stop0
+1	4507	107		set __rotate_theOM0, 7
+1	4508	110		set __rotate_theUF0, 7
+1	4509	113		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	4511	128		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4513	132		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	4514	134		wait2 NA, __constVal50
+1	4516	137		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4517	141		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	4518	145		set __rotate_theOM0, 4
+1	4519	148		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	4522	159		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	4523	162		setout __rotate_ports0, 0, __constVal32
+1	4525	167		subret ____RotateMotor0_return
+2	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+2	4530	3		set ____RotateMotor1_sign_tmp, 0
+2	4530	6		brtst EQ, __sign_1, __rotate_angle1
+2	4530	9		set ____RotateMotor1_sign_tmp, -1
+2	4530	12		brtst LT, __sign_1, __rotate_angle1
+2	4530	15		set ____RotateMotor1_sign_tmp, 1
+2	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+2	4531	20		abs __rotate_theAngle1, __rotate_angle1
+2	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+2	4534	27		set __rotate_theUF1, 23
+2	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+2	4536	33		set __rotate_theOM1, 7
+2	4537	36		set __rotate_theRM1, 2
+2	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+2	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+2	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+2	4541	48		jmp __rotate_Start1
+2	4543	50		set __rotate_theOM1, 3
+2	4544	53		set __rotate_theRM1, 0
+2	4545	56		set __rotate_theTurnPct1, 0
+2	4547	59		set __rotate_theRS1, 32
+2	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+2	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
+2	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
+2	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+2	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
+2	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+2	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
+2	4560	107		set __rotate_theOM1, 7
+2	4561	110		set __rotate_theUF1, 7
+2	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+2	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+2	4567	134		wait2 NA, __constVal50
+2	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+2	4571	145		set __rotate_theOM1, 4
+2	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+2	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+2	4576	162		setout __rotate_ports1, 0, __constVal32
+2	4578	167		subret ____RotateMotor1_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	5747	0	#pragma macro 25
+4	5747	0		acquire __CLSWMutex2
+4	5747	1		set __CLSWArgs2.Port, 2
+4	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+4	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+4	5747	8		syscall 21, __CLSWArgs2
+4	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
+4	5747	13		release __CLSWMutex2
+4	5747	14	#line 5747 "NXTDefs.h"
+4	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
+4	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+4	5750	21		brtst 5, __RLSBError2, __RLSBResult2
+4	5751	24		set __RLSBIterations2, 4
+4	5753	27	#pragma macro 23
+4	5753	27		acquire __CLSCSMutex2
+4	5753	28		set __CLSCSArgs2.Port, 2
+4	5753	31		syscall 23, __CLSCSArgs2
+4	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+4	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
+4	5753	38		release __CLSCSMutex2
+4	5753	39	#line 5753 "NXTDefs.h"
+4	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+4	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
+4	5756	46		brtst 0, __RLSBError2, __RLSBResult2
+4	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+4	5759	52		wait2 NA, __constVal15
+4	5760	55		jmp __RLSBDoCheckStatus2
+4	5763	57	#pragma macro 25
+4	5763	57		acquire __CLSRMutex2
+4	5763	58		set __CLSRArgs2.Port, 2
+4	5763	61		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+4	5763	63		syscall 22, __CLSRArgs2
+4	5763	66		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+4	5763	68		mov __RLSBResult2, __CLSRArgs2.Result
+4	5763	70		release __CLSRMutex2
+4	5763	71	#line 5763 "NXTDefs.h"
+4	5764	71		brtst 5, __RLSBError2, __RLSBResult2
+4	5765	74		mov __RLSLastGoodRead2, __RLSReadBuf2
+4	5766	76		jmp __RLSBDone2
+4	5768	78		mov __RLSReadBuf2, __RLSLastGoodRead2
+4	5770	80		arrsize __RLSBytesCount2, __RLSReadBuf2
+4	5772	83		subret ____ReadLSBytes2_return
+5	74	0	#line 74 "H:\Labo - Robotique\Compet'\Bonne-Humeur.nxc"
+5	75	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	H:\Labo - Robotique\Compet\Bonne-Humeur.nxc
+1	__RotateMotor0	783	NXTDefs.h
+2	__RotateMotor1	952	NXTDefs.h
+3	__ResetSensorSubroutine	1121	NXTDefs.h
+4	__ReadLSBytes2	1134	NXTDefs.h
+5	__initialize_global_data	1219	H:\Labo - Robotique\Compet\Bonne-Humeur.nxc

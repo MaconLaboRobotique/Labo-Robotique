@@ -1,0 +1,130 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	14
+1	__signed_stack_001main	6	1	4	4	6
+2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	2
+3	__SetSensorMode_7qG2_port_7qG2_000_inline_main	1	1	12	1	2
+4	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	13	1	2
+5	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	14	1	2
+6	__SetSensorMode_7qG2_mode_7qG2_000_inline_main	1	1	15	1	2
+7	__constVal63	2	0	16	1	2
+8	__constVal96	2	0	17	1	2
+9	__ClearSensor_7qG2_port_7qG2_000_inline_main	1	1	18	1	2
+10	__PFTmp	1	1	19	1	1
+11	__constVal3	2	0	20	1	2
+12	__constVal0	2	1	21	1	10
+13	__constVal1	2	0	22	1	1
+14	__constVal32	2	0	23	1	6
+15	____initialize_global_data_return	1	1	24	1	3
+16	__zfmain	1	1	25	1	13
+17	__OUT_AC	7	0	26	4	2
+18	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	2	2	#line 2 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	2	5	#line 2 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	2	5	#line 2 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3	5		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 1
+0	2	8	#line 2 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3663	8	#line 3663 "NXCDefs.h"
+0	3664	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	12	#line 3663 "NXCDefs.h"
+0	3	12	#line 3 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3	12	#line 3 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	4	12		set __SetSensorMode_7qG2_port_7qG2_000_inline_main, 0
+0	3	15	#line 3 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3	15	#line 3 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	4	15		set __SetSensorMode_7qG2_mode_7qG2_000_inline_main, 96
+0	3	18	#line 3 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3676	18	#line 3676 "NXCDefs.h"
+0	3677	18		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	3676	22	#line 3676 "NXCDefs.h"
+0	4	22	#line 4 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	5	22	#line 5 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	6	22		set __D0main, 1
+0	6	25	#line 6 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	7	25		tst 5, __zfmain, __D0main
+0	6	28	#line 6 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	7	28		brtst 4, __NXC_Label_498, __zfmain
+0	6	31	#line 6 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	7	31		set __ClearSensor_7qG2_port_7qG2_000_inline_main, 0
+0	6	34	#line 6 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	3684	34	#line 3684 "NXCDefs.h"
+0	3685	34		setin __constVal0, __ClearSensor_7qG2_port_7qG2_000_inline_main, 4
+0	3684	38	#line 3684 "NXCDefs.h"
+0	7	38	#line 7 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	7	38	#line 7 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	8	38		getin __signed_stack_001main, __constVal0, 4
+0	7	42	#line 7 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	7	42	#line 7 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	8	42		set __D0main, 0
+0	7	45	#line 7 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	8	45		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	7	49	#line 7 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	7	49	#line 7 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	8	49		not __D0main, __zfmain
+0	8	52	#line 8 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	9	52		tst 5, __zfmain, __D0main
+0	8	55	#line 8 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	9	55		brtst 4, __NXC_Label_504, __zfmain
+0	8	58	#line 8 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	8	58	#line 8 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	9	58		jmp __NXC_Label_503
+0	8	60	#line 8 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	8	60	#line 8 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	9	60		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	8	63	#line 8 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	7921	63	#line 7921 "NXCDefs.h"
+0	7922	63		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	66	#line 7921 "NXCDefs.h"
+0	9	66	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	9	66	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	66		getin __signed_stack_001main, __constVal0, 4
+0	9	70	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	9	70	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	70		set __D0main, 1
+0	9	73	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	73		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	9	77	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	77		mov __D0main, __zfmain
+0	9	79	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	79		brtst 4, __NXC_Label_513, __zfmain
+0	9	82	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	82	#pragma macro 7
+0	10	82		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3774	105	#line 3774 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	9	105	#line 9 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	105	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	105	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	11	105		getin __signed_stack_001main, __constVal1, 4
+0	10	109	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	109	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	11	109		set __D0main, 2
+0	10	112	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	11	112		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	10	116	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	11	116		mov __D0main, __zfmain
+0	10	118	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	11	118		brtst 4, __NXC_Label_516, __zfmain
+0	10	121	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	11	121		set __D0main, 25
+0	10	124	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	11	124	#pragma macro 7
+0	11	124		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3797	147	#line 3797 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	10	147	#line 10 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	12	147	#line 12 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	14	147	#line 14 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	15	147		jmp __NXC_Label_497
+0	14	149	#line 14 "H:\Labo - Robotique\zetaogoegaer.nxc"
+0	15	149		exit -1, -1
+1	15	0	#line 15 "H:\Labo - Robotique\zetaogoegaer.nxc"
+1	16	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	H:\Labo - Robotique\zetaogoegaer.nxc
+1	__initialize_global_data	152	H:\Labo - Robotique\zetaogoegaer.nxc

@@ -1,0 +1,766 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__RLSBmutex2	9	0	0	4	6
+1	__rotate_theAngle0	5	1	4	4	2
+2	__rotate_theAngle1	5	1	8	4	2
+3	__CLSWMutex2	9	0	12	4	2
+4	__CLSRMutex2	9	0	16	4	2
+5	__rotate_angle1	6	1	20	4	7
+6	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	24	4	6
+7	__D0main	6	1	28	4	48
+8	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	32	4	4
+9	__signed_stack_002main	6	1	36	4	4
+10	__signed_stack_001main	6	1	40	4	28
+11	__CLSCSMutex2	9	0	44	4	2
+12	__rotate_angle0	6	1	48	4	7
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	4
+14	__rotate_RotCount1	4	1	56	2	4
+15	__main_7qG2_dist_7qG2_000	4	1	58	2	5
+16	__rotate_OldRotCount1	4	1	60	2	2
+17	__constValNeg230	4	0	62	2	1
+18	__constValNeg210	4	0	64	2	2
+19	__main_7qG2_count_7qG2_000	4	1	66	2	9
+20	__main_7qG2_i_7qG2_000	4	1	68	2	4
+21	__rotate_OldRotCount0	4	1	70	2	2
+22	__rotate_RotCount0	4	1	72	2	4
+23	____ResetSensorSubroutine_return	1	1	74	1	4
+24	__RLSBIterations2	1	1	75	1	4
+25	__constVal2	2	0	76	1	1
+26	__constVal3	2	0	77	1	11
+27	__RLSBytesCount2	1	1	78	1	9
+28	__ResetSensorPort	1	1	79	1	4
+29	__ResetSensorTmp	1	1	80	1	2
+30	__RLSBResult2	2	1	81	1	7
+31	__constVal15	2	0	82	1	7
+32	____ReadLSBytes2_return	1	1	83	1	5
+33	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	84	1	4
+34	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	85	1	4
+35	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	86	1	4
+36	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	87	1	4
+37	__constVal63	2	0	88	1	10
+38	__constVal57	2	0	89	1	1
+39	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	90	1	2
+40	__constVal96	2	0	91	1	16
+41	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	92	1	4
+42	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	93	1	4
+43	____initialize_global_data_return	1	1	94	1	3
+44	__PFTmp	1	1	95	1	1
+45	__zfmain	1	1	96	1	24
+46	__SetSensorUltrasonic_7qG2_port_7qG2_000_inline_main	1	1	97	1	2
+47	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	98	1	10
+48	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	99	1	4
+49	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	100	1	4
+50	__rotate_theTurnPct0	2	1	101	1	4
+51	__rotate_power1	1	1	102	1	6
+52	__rotate_thePower0	2	1	103	1	4
+53	__rotate_theRVD0	1	1	104	1	4
+54	__rotate_rs0	1	1	105	1	2
+55	__rotate_firstPort1	1	1	106	1	5
+56	__rotate_theUF1	1	1	107	1	6
+57	__rotate_theOM1	1	1	108	1	7
+58	__rotate_turnpct1	2	1	109	1	5
+59	__rotate_sync1	1	1	110	1	4
+60	__rotate_stop1	1	1	111	1	4
+61	__rotate_theRVI0	1	1	112	1	4
+62	__rotate_sync0	1	1	113	1	4
+63	__rotate_stop0	1	1	114	1	4
+64	__rotate_firstPort0	1	1	115	1	5
+65	__OnRev_Tmp	2	1	116	1	4
+66	__rotate_power0	1	1	117	1	6
+67	__rotate_turnpct0	2	1	118	1	5
+68	__rotate_theRS0	1	1	119	1	3
+69	__rotate_theRVP0	1	1	120	1	4
+70	__rotate_theRM0	1	1	121	1	4
+71	__rotate_theUF0	1	1	122	1	6
+72	__rotate_theOM0	1	1	123	1	7
+73	____RotateMotor0_return	1	1	124	1	5
+74	____RotateMotor0_sign_tmp	2	1	125	1	4
+75	__rotate_thePower1	2	1	126	1	4
+76	__rotate_theTurnPct1	2	1	127	1	4
+77	__constVal0	2	1	128	1	66
+78	__constVal50	2	0	129	1	3
+79	__constVal32	2	0	130	1	42
+80	__constVal1	2	0	131	1	22
+81	____RotateMotor1_return	1	1	132	1	5
+82	__rotate_theRS1	1	1	133	1	3
+83	__rotate_theRVI1	1	1	134	1	4
+84	__rotate_theRVP1	1	1	135	1	4
+85	__rotate_theRM1	1	1	136	1	4
+86	__rotate_rs1	1	1	137	1	2
+87	____RotateMotor1_sign_tmp	2	1	138	1	4
+88	__rotate_theRVD1	1	1	139	1	4
+89	__CLSCSArgs2	8	0	3	4	4
+90	__CLSCSArgs2.Result	2	1	140	1	4
+91	__CLSCSArgs2.Port	1	1	141	1	4
+92	__CLSCSArgs2.BytesReady	1	1	142	1	4
+93	__CLSWArgs2	8	0	4	12	5
+94	__CLSWArgs2.Result	2	1	144	1	5
+95	__CLSWArgs2.Port	1	1	145	1	5
+96	__CLSWArgs2.Buffer	7	0	146	4	5
+97	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+98	__CLSWArgs2.ReturnLen	1	1	148	1	5
+99	__TextOutArgs	8	0	4	16	6
+100	__TextOutArgs.Result	2	1	152	1	6
+101	__TextOutArgs.Location	8	0	2	4	6
+102	__TextOutArgs.Location.X	4	1	156	2	6
+103	__TextOutArgs.Location.Y	4	1	158	2	6
+104	__TextOutArgs.Text	7	0	160	4	6
+105	__TextOutArgs.Text.Text_type	1	0	0	1	0
+106	__TextOutArgs.Options	5	1	164	4	6
+107	__CLSRArgs2	8	0	4	12	5
+108	__CLSRArgs2.Result	2	1	168	1	5
+109	__CLSRArgs2.Port	1	1	169	1	5
+110	__CLSRArgs2.Buffer	7	0	170	4	5
+111	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+112	__CLSRArgs2.BufferLen	1	1	172	1	5
+113	__rotate_ports0	7	0	174	4	8
+114	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+115	__OUT_AB	7	0	176	4	6
+116	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+117	__rotate_ports1	7	0	178	4	8
+118	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+119	__RLSReadBuf2	7	0	180	4	12
+120	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+121	__RLSBbufLSWrite1	7	0	182	4	3
+122	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+123	__RLSLastGoodRead2	7	0	184	4	2
+124	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	14	0	#line 14 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	15	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	14	2	#line 14 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	14	2	#line 14 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	15	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	14	5	#line 14 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	14	5	#line 14 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	15	5		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 13
+0	14	8	#line 14 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	3663	8	#line 3663 "NXCDefs.h"
+0	3664	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	12	#line 3663 "NXCDefs.h"
+0	15	12	#line 15 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	15	12	#line 15 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	16	12		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 1
+0	15	15	#line 15 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	15	15	#line 15 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	16	15		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 1
+0	15	18	#line 15 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	3663	18	#line 3663 "NXCDefs.h"
+0	3664	18		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	22	#line 3663 "NXCDefs.h"
+0	16	22	#line 16 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	16	22	#line 16 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	17	22		set __SetSensorUltrasonic_7qG2_port_7qG2_000_inline_main, 2
+0	16	25	#line 16 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	3768	25	#line 3768 "NXCDefs.h"
+0	3769	25		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal2
+0	3768	27	#line 3768 "NXCDefs.h"
+0	3768	27	#line 3768 "NXCDefs.h"
+0	3769	27		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	29	#line 3758 "NXCDefs.h"
+0	3759	29		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	31	#line 3758 "NXCDefs.h"
+0	3758	31	#line 3758 "NXCDefs.h"
+0	3759	31		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	33	#line 3758 "NXCDefs.h"
+0	3759	33		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	36	#line 3758 "NXCDefs.h"
+0	3759	36		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	39	#line 3758 "NXCDefs.h"
+0	3759	39		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	42	#line 3758 "NXCDefs.h"
+0	3759	42		jmp __001__001__NXC_Label_37
+0	3758	44	#line 3758 "NXCDefs.h"
+0	3759	44		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	47	#line 3758 "NXCDefs.h"
+0	3759	47		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	49	#line 3663 "NXCDefs.h"
+0	3664	49		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	53	#line 3663 "NXCDefs.h"
+0	3759	53	#line 3759 "NXCDefs.h"
+0	3759	53	#line 3759 "NXCDefs.h"
+0	3760	53		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	55	#line 3759 "NXCDefs.h"
+0	3759	55	#line 3759 "NXCDefs.h"
+0	3760	55		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	58	#line 3759 "NXCDefs.h"
+0	3676	58	#line 3676 "NXCDefs.h"
+0	3677	58		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	62	#line 3676 "NXCDefs.h"
+0	3760	62	#line 3760 "NXCDefs.h"
+0	3760	62	#line 3760 "NXCDefs.h"
+0	3761	62		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3760	64	#line 3760 "NXCDefs.h"
+0	3694	64	#line 3694 "NXCDefs.h"
+0	3695	64	#pragma macro 4
+0	3695	64		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	66		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3747	68	#line 3747 "NXCDefs.h"
+0	3694	68	#line 3694 "NXCDefs.h"
+0	3761	68	#line 3761 "NXCDefs.h"
+0	3768	68	#line 3768 "NXCDefs.h"
+0	17	68	#line 17 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	17	68	#line 17 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	18	68		set __SetSensorUltrasonic_7qG2_port_7qG2_000_inline_main, 3
+0	17	71	#line 17 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	3768	71	#line 3768 "NXCDefs.h"
+0	3769	71		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal3
+0	3768	73	#line 3768 "NXCDefs.h"
+0	3768	73	#line 3768 "NXCDefs.h"
+0	3769	73		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	75	#line 3758 "NXCDefs.h"
+0	3759	75		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	77	#line 3758 "NXCDefs.h"
+0	3758	77	#line 3758 "NXCDefs.h"
+0	3759	77		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	79	#line 3758 "NXCDefs.h"
+0	3759	79		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	82	#line 3758 "NXCDefs.h"
+0	3759	82		brtst 4, __001__002__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	85	#line 3758 "NXCDefs.h"
+0	3759	85		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	88	#line 3758 "NXCDefs.h"
+0	3759	88		jmp __001__002__NXC_Label_37
+0	3758	90	#line 3758 "NXCDefs.h"
+0	3759	90		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	93	#line 3758 "NXCDefs.h"
+0	3759	93		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	95	#line 3663 "NXCDefs.h"
+0	3664	95		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	99	#line 3663 "NXCDefs.h"
+0	3759	99	#line 3759 "NXCDefs.h"
+0	3759	99	#line 3759 "NXCDefs.h"
+0	3760	99		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	101	#line 3759 "NXCDefs.h"
+0	3759	101	#line 3759 "NXCDefs.h"
+0	3760	101		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	104	#line 3759 "NXCDefs.h"
+0	3676	104	#line 3676 "NXCDefs.h"
+0	3677	104		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	108	#line 3676 "NXCDefs.h"
+0	3760	108	#line 3760 "NXCDefs.h"
+0	3760	108	#line 3760 "NXCDefs.h"
+0	3761	108		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3760	110	#line 3760 "NXCDefs.h"
+0	3694	110	#line 3694 "NXCDefs.h"
+0	3695	110	#pragma macro 4
+0	3695	110		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	112		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3821	114	#line 3821 "NXCDefs.h"
+0	3694	114	#line 3694 "NXCDefs.h"
+0	3761	114	#line 3761 "NXCDefs.h"
+0	3768	114	#line 3768 "NXCDefs.h"
+0	18	114	#line 18 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	18	114	#line 18 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	19	114		set __main_7qG2_count_7qG2_000, 0
+0	18	117	#line 18 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	20	117	#line 20 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	21	117		set __main_7qG2_dist_7qG2_000, 20
+0	20	120	#line 20 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	21	120	#line 21 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	22	120		set __D0main, 1
+0	22	123	#line 22 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	23	123		tst 5, __zfmain, __D0main
+0	22	126	#line 22 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	23	126		brtst 4, __NXC_Label_506, __zfmain
+0	22	129	#line 22 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	23	129		set __D0main, 50
+0	23	132	#line 23 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	24	132	#pragma macro 7
+0	24	132		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3880	155	#line 3880 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	23	155	#line 23 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	23	155	#line 23 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	24	155		set __D0main, 57
+0	24	158	#line 24 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	25	158	#pragma macro 7
+0	25	158		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3887	181	#line 3887 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	24	181	#line 24 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	24	181	#line 24 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	25	181		set __signed_stack_001main, 0
+0	24	184	#line 24 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	24	184	#line 24 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	25	184		set __signed_stack_002main, 56
+0	24	187	#line 24 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	24	187	#line 24 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	25	187	#pragma macro 26
+0	25	187		acquire __RLSBmutex2
+0	25	188		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	25	190		set __RLSBytesCount2, 1
+0	25	193		wait2 NA, __constVal15
+0	25	196		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	25	198		index __D0main, __RLSReadBuf2, 65535
+0	25	202		release __RLSBmutex2
+0	3902	203	#line 3902 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	26	203	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	26	203	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	203		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	26	205	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	205		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	26	207	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	207		set __TextOutArgs.Options, 0
+0	26	210	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	210		numtostr __TextOutArgs.Text, __D0main
+0	26	213	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	213		syscall 13, __TextOutArgs
+0	26	216	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	216		mov __D0main, __TextOutArgs.Result
+0	26	218	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	26	218	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	26	218	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	26	218	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	218	#pragma macro 26
+0	27	218		acquire __RLSBmutex2
+0	27	219		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	27	221		set __RLSBytesCount2, 1
+0	27	224		wait2 NA, __constVal15
+0	27	227		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	27	229		index __D0main, __RLSReadBuf2, 65535
+0	27	233		release __RLSBmutex2
+0	3924	234	#line 3924 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	26	234	#line 26 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	27	234		mov __signed_stack_001main, __D0main
+0	27	236	#line 27 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	28	236		mov __D0main, __main_7qG2_dist_7qG2_000
+0	27	238	#line 27 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	28	238		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	27	242	#line 27 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	28	242		mov __D0main, __zfmain
+0	28	244	#line 28 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	29	244		brtst 4, __NXC_Label_521, __zfmain
+0	29	247	#line 29 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	30	247	#pragma macro 7
+0	30	247		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3938	270	#line 3938 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	29	270	#line 29 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	29	270	#line 29 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	30	270		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	29	273	#line 29 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	7921	273	#line 7921 "NXCDefs.h"
+0	7922	273		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	276	#line 7921 "NXCDefs.h"
+0	30	276	#line 30 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	30	276	#line 30 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	31	276	#line 31 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	32	276	#pragma macro 10
+0	32	276		neg __OnRev_Tmp, __constVal57
+0	32	279		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3959	302	#line 3959 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	31	302	#line 31 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	31	302	#line 31 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	32	302	#line 32 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	33	302	#pragma macro 10
+0	33	302		neg __OnRev_Tmp, __constVal50
+0	33	305		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3966	328	#line 3966 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	32	328	#line 32 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	32	328	#line 32 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	33	328		set __Wait_7qG2_ms_7qG2_000_inline_main, 2500
+0	32	331	#line 32 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	7921	331	#line 7921 "NXCDefs.h"
+0	7922	331		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	334	#line 7921 "NXCDefs.h"
+0	33	334	#line 33 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	34	334	#line 34 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	35	334	#pragma macro 7
+0	35	334		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3979	357	#line 3979 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	34	357	#line 34 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	34	357	#line 34 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	35	357		set __signed_stack_001main, 50
+0	34	360	#line 34 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	34	360	#line 34 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	35	360		set __D0main, 230
+0	35	363	#line 35 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	36	363	#pragma macro 33
+0	36	363		arrbuild __rotate_ports0, __constVal0
+0	36	367		mov __rotate_power0, __signed_stack_001main
+0	36	369		mov __rotate_angle0, __D0main
+0	36	371		mov __rotate_turnpct0, __constVal0
+0	36	373		mov __rotate_sync0, __constVal0
+0	36	375		mov __rotate_stop0, __constVal1
+0	36	377		mov __rotate_theRVP0, __constVal32
+0	36	379		mov __rotate_theRVI0, __constVal0
+0	36	381		mov __rotate_theRVD0, __constVal96
+0	36	383		subcall __RotateMotor0, ____RotateMotor0_return
+0	3992	385	#line 3992 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	35	385	#line 35 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	35	385	#line 35 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	36	385		set __signed_stack_001main, 50
+0	35	388	#line 35 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	35	388	#line 35 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	36	388		mov __D0main, __constValNeg230
+0	36	390	#line 36 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	37	390	#pragma macro 33
+0	37	390		arrbuild __rotate_ports1, __constVal1
+0	37	394		mov __rotate_power1, __signed_stack_001main
+0	37	396		mov __rotate_angle1, __D0main
+0	37	398		mov __rotate_turnpct1, __constVal0
+0	37	400		mov __rotate_sync1, __constVal0
+0	37	402		mov __rotate_stop1, __constVal1
+0	37	404		mov __rotate_theRVP1, __constVal32
+0	37	406		mov __rotate_theRVI1, __constVal0
+0	37	408		mov __rotate_theRVD1, __constVal96
+0	37	410		subcall __RotateMotor1, ____RotateMotor1_return
+0	4005	412	#line 4005 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	36	412	#line 36 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	38	412	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	38	412	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	39	412		set __main_7qG2_i_7qG2_000, 0
+0	38	415	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	38	415	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	39	415		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	38	417	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	38	417	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	39	417		set __D0main, 3
+0	38	420	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	39	420		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	38	424	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	39	424		mov __D0main, __zfmain
+0	38	426	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	39	426		brtst 4, __NXC_Label_539, __zfmain
+0	38	429	#line 38 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	39	429		jmp __NXC_Label_540
+0	39	431	#line 39 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	40	431		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	40	435	#line 40 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	41	435		jmp __NXC_Label_538
+0	40	437	#line 40 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	41	437	#pragma macro 26
+0	41	437		acquire __RLSBmutex2
+0	41	438		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	41	440		set __RLSBytesCount2, 1
+0	41	443		wait2 NA, __constVal15
+0	41	446		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	41	448		index __D0main, __RLSReadBuf2, 65535
+0	41	452		release __RLSBmutex2
+0	4039	453	#line 4039 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	40	453	#line 40 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	41	453		mov __signed_stack_001main, __D0main
+0	41	455	#line 41 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	42	455		mov __D0main, __main_7qG2_dist_7qG2_000
+0	41	457	#line 41 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	42	457		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	41	461	#line 41 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	42	461		mov __D0main, __zfmain
+0	42	463	#line 42 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	43	463		brtst 4, __NXC_Label_548, __zfmain
+0	42	466	#line 42 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	43	466		mov __signed_stack_001main, __main_7qG2_count_7qG2_000
+0	42	468	#line 42 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	43	468	#line 43 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	44	468		set __D0main, 1
+0	43	471	#line 43 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	44	471		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	43	475	#line 43 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	44	475		mov __D0main, __zfmain
+0	44	477	#line 44 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	45	477		brtst 4, __NXC_Label_551, __zfmain
+0	45	480	#line 45 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	46	480	#pragma macro 7
+0	46	480		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4067	503	#line 4067 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	45	503	#line 45 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	45	503	#line 45 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	46	503		set __signed_stack_001main, 50
+0	45	506	#line 45 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	45	506	#line 45 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	46	506		set __D0main, 210
+0	46	509	#line 46 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	47	509	#pragma macro 33
+0	47	509		arrbuild __rotate_ports0, __constVal0
+0	47	513		mov __rotate_power0, __signed_stack_001main
+0	47	515		mov __rotate_angle0, __D0main
+0	47	517		mov __rotate_turnpct0, __constVal0
+0	47	519		mov __rotate_sync0, __constVal0
+0	47	521		mov __rotate_stop0, __constVal1
+0	47	523		mov __rotate_theRVP0, __constVal32
+0	47	525		mov __rotate_theRVI0, __constVal0
+0	47	527		mov __rotate_theRVD0, __constVal96
+0	47	529		subcall __RotateMotor0, ____RotateMotor0_return
+0	4080	531	#line 4080 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	46	531	#line 46 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	46	531	#line 46 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	47	531		set __signed_stack_001main, 50
+0	46	534	#line 46 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	46	534	#line 46 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	47	534		mov __D0main, __constValNeg210
+0	48	536	#line 48 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	49	536	#pragma macro 33
+0	49	536		arrbuild __rotate_ports1, __constVal1
+0	49	540		mov __rotate_power1, __signed_stack_001main
+0	49	542		mov __rotate_angle1, __D0main
+0	49	544		mov __rotate_turnpct1, __constVal0
+0	49	546		mov __rotate_sync1, __constVal0
+0	49	548		mov __rotate_stop1, __constVal1
+0	49	550		mov __rotate_theRVP1, __constVal32
+0	49	552		mov __rotate_theRVI1, __constVal0
+0	49	554		mov __rotate_theRVD1, __constVal96
+0	49	556		subcall __RotateMotor1, ____RotateMotor1_return
+0	4093	558	#line 4093 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	48	558	#line 48 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	49	558	#line 49 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	50	558		add __main_7qG2_count_7qG2_000, __main_7qG2_count_7qG2_000, __constVal1
+0	49	562	#line 49 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	50	562	#line 50 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	51	562		set __main_7qG2_dist_7qG2_000, 15
+0	50	565	#line 50 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	50	565	#line 50 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	51	565	#line 51 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	52	565	#pragma macro 7
+0	52	565		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4106	588	#line 4106 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	51	588	#line 51 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	52	588	#line 52 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	53	588		jmp __NXC_Label_541
+0	52	590	#line 52 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	53	590	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	53	590	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	590		mov __signed_stack_001main, __main_7qG2_count_7qG2_000
+0	53	592	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	53	592	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	592		set __D0main, 0
+0	53	595	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	595		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	53	599	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	599		mov __D0main, __zfmain
+0	53	601	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	601		brtst 5, __NXC_Label_562, __zfmain
+0	53	604	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	604		mov __signed_stack_001main, __D0main
+0	53	606	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	606		mov __signed_stack_002main, __main_7qG2_count_7qG2_000
+0	53	608	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	53	608	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	608		set __D0main, 2
+0	53	611	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	611		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	53	615	#line 53 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	54	615	#line 54 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	55	615		or __D0main, __signed_stack_001main, __zfmain
+0	55	619	#line 55 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	56	619		tst 5, __zfmain, __D0main
+0	55	622	#line 55 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	56	622		brtst 4, __NXC_Label_569, __zfmain
+0	56	625	#line 56 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	57	625	#pragma macro 7
+0	57	625		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4151	648	#line 4151 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	56	648	#line 56 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	56	648	#line 56 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	57	648		set __signed_stack_001main, 50
+0	56	651	#line 56 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	56	651	#line 56 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	57	651		set __D0main, 210
+0	57	654	#line 57 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	58	654	#pragma macro 33
+0	58	654		arrbuild __rotate_ports1, __constVal1
+0	58	658		mov __rotate_power1, __signed_stack_001main
+0	58	660		mov __rotate_angle1, __D0main
+0	58	662		mov __rotate_turnpct1, __constVal0
+0	58	664		mov __rotate_sync1, __constVal0
+0	58	666		mov __rotate_stop1, __constVal1
+0	58	668		mov __rotate_theRVP1, __constVal32
+0	58	670		mov __rotate_theRVI1, __constVal0
+0	58	672		mov __rotate_theRVD1, __constVal96
+0	58	674		subcall __RotateMotor1, ____RotateMotor1_return
+0	4164	676	#line 4164 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	57	676	#line 57 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	57	676	#line 57 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	58	676		set __signed_stack_001main, 50
+0	57	679	#line 57 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	57	679	#line 57 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	58	679		mov __D0main, __constValNeg210
+0	58	681	#line 58 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	59	681	#pragma macro 33
+0	59	681		arrbuild __rotate_ports0, __constVal0
+0	59	685		mov __rotate_power0, __signed_stack_001main
+0	59	687		mov __rotate_angle0, __D0main
+0	59	689		mov __rotate_turnpct0, __constVal0
+0	59	691		mov __rotate_sync0, __constVal0
+0	59	693		mov __rotate_stop0, __constVal1
+0	59	695		mov __rotate_theRVP0, __constVal32
+0	59	697		mov __rotate_theRVI0, __constVal0
+0	59	699		mov __rotate_theRVD0, __constVal96
+0	59	701		subcall __RotateMotor0, ____RotateMotor0_return
+0	4177	703	#line 4177 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	58	703	#line 58 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	59	703	#line 59 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	60	703		add __main_7qG2_count_7qG2_000, __main_7qG2_count_7qG2_000, __constVal1
+0	59	707	#line 59 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	60	707	#line 60 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	61	707		set __main_7qG2_dist_7qG2_000, 15
+0	60	710	#line 60 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	60	710	#line 60 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	61	710	#line 61 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	62	710	#pragma macro 7
+0	62	710		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4190	733	#line 4190 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	61	733	#line 61 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	62	733	#line 62 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	63	733		jmp __NXC_Label_541
+0	62	735	#line 62 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	64	735	#line 64 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	65	735	#line 65 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	65	735	#line 65 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	66	735		jmp __NXC_Label_541
+0	65	737	#line 65 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	65	737	#line 65 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	66	737		mov __signed_stack_001main, __main_7qG2_count_7qG2_000
+0	65	739	#line 65 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	66	739	#line 66 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	67	739		set __D0main, 3
+0	66	742	#line 66 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	67	742		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	66	746	#line 66 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	67	746		mov __D0main, __zfmain
+0	66	748	#line 66 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	67	748		brtst 4, __NXC_Label_582, __zfmain
+0	67	751	#line 67 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	68	751		jmp __NXC_Label_506
+0	67	753	#line 67 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	68	753	#line 68 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	70	753	#line 70 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	71	753		jmp __NXC_Label_505
+0	70	755	#line 70 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+0	71	755		exit -1, -1
+1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	4477	3		set ____RotateMotor0_sign_tmp, 0
+1	4477	6		brtst EQ, __sign_0, __rotate_angle0
+1	4477	9		set ____RotateMotor0_sign_tmp, -1
+1	4477	12		brtst LT, __sign_0, __rotate_angle0
+1	4477	15		set ____RotateMotor0_sign_tmp, 1
+1	4477	18	__sign_0:	mov __rotate_thePower0, ____RotateMotor0_sign_tmp
+1	4478	20		abs __rotate_theAngle0, __rotate_angle0
+1	4479	23		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	4481	27		set __rotate_theUF0, 23
+1	4482	30		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	4483	33		set __rotate_theOM0, 7
+1	4484	36		set __rotate_theRM0, 2
+1	4485	39		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	4486	41		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	4487	44		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	4488	48		jmp __rotate_Start0
+1	4490	50		set __rotate_theOM0, 3
+1	4491	53		set __rotate_theRM0, 0
+1	4492	56		set __rotate_theTurnPct0, 0
+1	4494	59		set __rotate_theRS0, 32
+1	4495	62		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	4498	85		index __rotate_firstPort0, __rotate_ports0, 65535
+1	4500	89		getout __rotate_power0, __rotate_firstPort0, 2
+1	4501	93		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	4502	96		getout __rotate_rs0, __rotate_firstPort0, 6
+1	4503	100		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	4505	104		brtst 4, __rotate_Reset0, __rotate_stop0
+1	4507	107		set __rotate_theOM0, 7
+1	4508	110		set __rotate_theUF0, 7
+1	4509	113		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	4511	128		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4513	132		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	4514	134		wait2 NA, __constVal50
+1	4516	137		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4517	141		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	4518	145		set __rotate_theOM0, 4
+1	4519	148		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	4522	159		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	4523	162		setout __rotate_ports0, 0, __constVal32
+1	4525	167		subret ____RotateMotor0_return
+2	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+2	4530	3		set ____RotateMotor1_sign_tmp, 0
+2	4530	6		brtst EQ, __sign_1, __rotate_angle1
+2	4530	9		set ____RotateMotor1_sign_tmp, -1
+2	4530	12		brtst LT, __sign_1, __rotate_angle1
+2	4530	15		set ____RotateMotor1_sign_tmp, 1
+2	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+2	4531	20		abs __rotate_theAngle1, __rotate_angle1
+2	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+2	4534	27		set __rotate_theUF1, 23
+2	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+2	4536	33		set __rotate_theOM1, 7
+2	4537	36		set __rotate_theRM1, 2
+2	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+2	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+2	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+2	4541	48		jmp __rotate_Start1
+2	4543	50		set __rotate_theOM1, 3
+2	4544	53		set __rotate_theRM1, 0
+2	4545	56		set __rotate_theTurnPct1, 0
+2	4547	59		set __rotate_theRS1, 32
+2	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+2	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
+2	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
+2	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+2	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
+2	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+2	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
+2	4560	107		set __rotate_theOM1, 7
+2	4561	110		set __rotate_theUF1, 7
+2	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+2	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+2	4567	134		wait2 NA, __constVal50
+2	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+2	4571	145		set __rotate_theOM1, 4
+2	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+2	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+2	4576	162		setout __rotate_ports1, 0, __constVal32
+2	4578	167		subret ____RotateMotor1_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	5747	0	#pragma macro 25
+4	5747	0		acquire __CLSWMutex2
+4	5747	1		set __CLSWArgs2.Port, 2
+4	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+4	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+4	5747	8		syscall 21, __CLSWArgs2
+4	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
+4	5747	13		release __CLSWMutex2
+4	5747	14	#line 5747 "NXTDefs.h"
+4	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
+4	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+4	5750	21		brtst 5, __RLSBError2, __RLSBResult2
+4	5751	24		set __RLSBIterations2, 4
+4	5753	27	#pragma macro 23
+4	5753	27		acquire __CLSCSMutex2
+4	5753	28		set __CLSCSArgs2.Port, 2
+4	5753	31		syscall 23, __CLSCSArgs2
+4	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+4	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
+4	5753	38		release __CLSCSMutex2
+4	5753	39	#line 5753 "NXTDefs.h"
+4	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+4	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
+4	5756	46		brtst 0, __RLSBError2, __RLSBResult2
+4	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+4	5759	52		wait2 NA, __constVal15
+4	5760	55		jmp __RLSBDoCheckStatus2
+4	5763	57	#pragma macro 25
+4	5763	57		acquire __CLSRMutex2
+4	5763	58		set __CLSRArgs2.Port, 2
+4	5763	61		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+4	5763	63		syscall 22, __CLSRArgs2
+4	5763	66		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+4	5763	68		mov __RLSBResult2, __CLSRArgs2.Result
+4	5763	70		release __CLSRMutex2
+4	5763	71	#line 5763 "NXTDefs.h"
+4	5764	71		brtst 5, __RLSBError2, __RLSBResult2
+4	5765	74		mov __RLSLastGoodRead2, __RLSReadBuf2
+4	5766	76		jmp __RLSBDone2
+4	5768	78		mov __RLSReadBuf2, __RLSLastGoodRead2
+4	5770	80		arrsize __RLSBytesCount2, __RLSReadBuf2
+4	5772	83		subret ____ReadLSBytes2_return
+5	71	0	#line 71 "H:\Labo - Robotique\Compet'\Attention-Canapé.nxc"
+5	72	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	H:\Labo - Robotique\Compet\Attention-Canapé.nxc
+1	__RotateMotor0	758	NXTDefs.h
+2	__RotateMotor1	927	NXTDefs.h
+3	__ResetSensorSubroutine	1096	NXTDefs.h
+4	__ReadLSBytes2	1109	NXTDefs.h
+5	__initialize_global_data	1194	H:\Labo - Robotique\Compet\Attention-Canapé.nxc

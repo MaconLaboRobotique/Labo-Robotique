@@ -1,0 +1,72 @@
+/*
+A = Moteur Droite
+B = Moteur Gauche
+
+1 = Capteur Couleur
+2 = Capteur Touché
+3 = Capteur Sonore
+*/
+
+#define INPUT_
+
+
+task main()
+{
+     SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+     SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+     SetSensorUltrasonic(IN_3);
+     int i,w,x,y,z,count=7,dist=20;
+     
+     while (true)                                                                //Bonne Humeur
+     {
+         SetSensorColorFull(S1);
+         ColorSensorReadType csr;
+         csr.Port = S1;
+         SysColorSensorRead(csr);
+
+         OnFwd(OUT_A,53);
+         OnFwd(OUT_B,50);
+
+         if(SensorUS(IN_3)<20)
+         {
+              Off(OUT_AB);
+              RotateMotor(OUT_A,57,-200);
+              RotateMotor(OUT_B,50,200);
+         }
+
+         if((csr.ColorValue == 3) && (count==7))
+         {
+              OnRev(OUT_A, 57);
+              OnRev(OUT_B, 50);
+              Wait(3000);
+              OnRev(OUT_A,57);
+              OnFwd(OUT_B,50);
+              Wait(1500);
+              Off(OUT_AB);
+              Wait(50);
+
+              for(i=0;i<=4;i++)
+              {
+                 RotateMotor(OUT_A,100,-100);
+                 RotateMotor(OUT_B,100,-100);
+              }
+              count++;
+              OnRev(OUT_A,57);
+              OnFwd(OUT_B,50);
+              Wait(2500);
+              OnFwd(OUT_A,57);
+              OnRev(OUT_B,50);
+              Wait(2500);
+              OnFwd(OUT_A, 57);
+              OnFwd(OUT_B, 50);
+              Off(OUT_AB);
+              OnFwd(OUT_A, 100);
+              Wait(500);
+              OnRev(OUT_B, 100);
+              Wait(500);
+              break;
+         }
+         
+     }
+}
+     

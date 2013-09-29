@@ -1,0 +1,548 @@
+/*
+A = Moteur Droite
+B = Moteur Gauche
+
+1 = Capteur Couleur
+2 = Capteur Touché
+3 = Capteur Sonore
+*/
+
+#define INPUT_
+#define VOL 4
+
+////////////////////////////////////////// AXEL /////////////////////////////////////////////////
+
+int compteur_deportation = 0;
+int compteurpremierefois = 0;
+int deportation = 1; //1=droite 0=gauche en premier
+int passage = 0;
+int premierefoisrouge = 1; //1 si c'est la premiere fois qu'il est sur le rouge, sert a amorcer le virage a droite
+
+int compteurblancs = 0;
+
+sub depart()
+{
+NumOut(0,LCD_LINE1, SensorUS(IN_3));
+if(SensorUS(IN_3)<20)
+{
+if(SensorUS(IN_4)<20)
+{
+OnRev(OUT_AB, 100);
+Wait(500);
+Off(OUT_AB);
+Wait(500);
+//tourne vers la droite
+OnFwd(OUT_B,50);
+OnRev(OUT_A, 50);
+Wait(100);
+}
+else
+{
+OnRev(OUT_AB, 100);
+Wait(500);
+
+//deporte vers la gauche
+
+OnRev(OUT_B, 50);
+OnFwd(OUT_A, 50);
+Wait(1000);
+}
+}
+else if(SensorUS(IN_4)<20)
+{
+//tourne vers la droite
+OnFwd(OUT_B,50);
+OnRev(OUT_A, 50);
+Wait(50);
+}
+else if (SensorUS(IN_4)>250)
+{
+    OnRev(OUT_B,50);
+    OnFwd(OUT_A,50);
+    Wait(500);                //////////////////////////////////////////////////// ATTENTION !!!!
+}
+OnFwd(OUT_A, 57);
+OnFwd(OUT_B, 50);
+Wait(20);
+ClearScreen();
+NumOut(0,LCD_LINE8,SensorUS(IN_4));
+}
+
+inline int rouge_detecte()
+{
+SetSensorColorFull(S1);
+ColorSensorReadType csr;
+csr.Port = S1;
+SysColorSensorRead(csr);
+
+if(csr.ColorValue == 5) return 1;
+else return 0;
+}
+
+sub suivre_ligne()
+{
+
+if(rouge_detecte() == 1) //rouge
+{
+OnFwd(OUT_A, 57);
+OnFwd(OUT_B, 50);
+Wait(20);
+}
+else //blanc
+{
+OnRev(OUT_AB, 100);
+Wait(200);
+Off(OUT_AB);
+Wait(100);
+
+OnFwd(OUT_B, 25);
+OnRev(OUT_A, 25);
+Wait(500);
+Off(OUT_AB);
+Wait(200);
+
+if(rouge_detecte() == 0) //si la couleur n'est toujours pas rouge
+{
+OnFwd(OUT_A, 25);
+OnRev(OUT_B, 25);
+Wait(1000);
+}
+}
+}
+/////////////////////////////////////////////////////////////////FIN AXEL/////////////////////////////////////////////////////////////
+
+
+
+sub canape(){
+
+    SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+    SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+    SetSensorUltrasonic(IN_3);
+    SetSensorUltrasonic(IN_4);
+    int i,w,x,y,z,count=0,dist=20;
+    int compteur_deportation = 0;
+    int compteurpremierefois = 0;
+    int deportation = 1; //1=droite 0=gauche en premier
+    int premierefoisrouge = 1; //1 si c'est la premiere fois qu'il est sur le rouge, sert a amorcer le virage a droite
+
+     while(true)                                                                 //Attention au Canapé
+     {
+          OnFwd(OUT_B, 50);
+          OnFwd(OUT_A, 57);
+          NumOut(0,LCD_LINE1, SensorUS(IN_3));
+
+          if (SensorUS(IN_3)<dist)
+          {
+               Off(OUT_AB);
+               Wait(100);;
+               OnRev(OUT_A,57);
+               OnRev(OUT_B,50);
+               if(SensorUS(IN_4)>25);
+               {
+                   Off(OUT_AB);
+                   RotateMotor(OUT_A,50,230);
+                   RotateMotor(OUT_B,50,-230);
+               }
+          }
+
+          for (i=0;i<=3;i++)
+          {
+              if (SensorUS(IN_3)<dist)
+              {
+                 if ((count == 0) || (count == 2))
+                 {
+                     Off(OUT_AB);
+                     RotateMotor(OUT_B,50,210);
+                     RotateMotor(OUT_A,50,-210);
+                     count++;
+                     dist = 15;
+                     Off(OUT_AB);
+                     continue;
+                  }
+
+                 if (count == 1)
+                 {
+                     Off(OUT_AB);
+                     RotateMotor(OUT_A,50,210);
+                     RotateMotor(OUT_B,50,-210);
+                     //RotateMotor(OUT_B,50,-720);
+                     count++;
+                     dist = 15;
+                     Off(OUT_AB);
+                     continue;
+                 }
+              }
+          }
+              if (count == 3)
+                 break;
+     }
+}
+
+sub locaux(){
+
+    SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+    SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+    SetSensorUltrasonic(IN_3);
+    int i,w,x,y,z,count=6,dist=20;
+    int compteur_deportation = 0;
+    int compteurpremierefois = 0;
+    int deportation = 1; //1=droite 0=gauche en premier
+    int premierefoisrouge = 1; //1 si c'est la premiere fois qu'il est sur le rouge, sert a amorcer le virage a droite
+
+    while (true)                                                                //Respect des Locaux
+     {
+         SetSensorColorFull(S1);
+         ColorSensorReadType csr;
+         csr.Port = S1;
+         SysColorSensorRead(csr);
+
+         if ((csr.ColorValue == 2) && (count == 6))
+            {
+               Off(OUT_AB);
+               OnRev(OUT_B, 50);
+               OnRev(OUT_A, 57);
+               Wait(1500);
+               Off(OUT_AB);
+               Wait(100);
+               OnFwd(OUT_A, 57);
+               OnRev(OUT_B, 50);
+               Wait (1500);
+               count++;
+            }
+            if (SensorUS(IN_3) < 25)
+            {
+                 OnFwd(OUT_A, 57);
+                 OnRev(OUT_B, 50);
+                 Wait (1500);
+            }
+
+         if (SensorUS(IN_4) < 20 )
+         {
+              OnFwd(OUT_B, 30);
+              OnRev(OUT_A, 30);
+              Wait(20);
+         }
+         else if (SensorUS(IN_4) > 40)
+         {
+              OnFwd(OUT_A, 50);
+              OnRev(OUT_B,50);
+              Wait(20);
+         }
+         else
+         {
+            OnFwd(OUT_A,57);
+            OnFwd(OUT_B,50);
+            Wait(20);
+         }
+     }
+}
+
+sub humeur(){
+
+    SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+    SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+    SetSensorUltrasonic(IN_3);
+    int count=7,dist=20,i=0;
+
+     while (true)                                                                //Bonne Humeur
+     {
+         SetSensorColorFull(S1);
+         ColorSensorReadType csr;
+         csr.Port = S1;
+         SysColorSensorRead(csr);
+
+         OnFwd(OUT_A,53);
+         OnFwd(OUT_B,50);
+
+         if(SensorUS(IN_3)<20)
+         {
+              Off(OUT_AB);
+              RotateMotor(OUT_A,57,-200);
+              RotateMotor(OUT_B,50,200);
+         }
+
+         if((csr.ColorValue == 3) && (count==7))
+         {
+              OnRev(OUT_A, 57);
+              OnRev(OUT_B, 50);
+              Wait(3000);
+              OnRev(OUT_A,57);
+              OnFwd(OUT_B,50);
+              Wait(1500);
+              Off(OUT_AB);
+              Wait(50);
+
+              for(i=0;i<=4;i++)
+              {
+                 RotateMotor(OUT_A,100,-100);
+                 RotateMotor(OUT_B,100,-100);
+              }
+              count++;
+              OnRev(OUT_A,57);
+              OnFwd(OUT_B,50);
+              Wait(2500);
+              OnFwd(OUT_A,57);
+              OnRev(OUT_B,50);
+              Wait(2500);
+              OnFwd(OUT_A, 57);
+              OnFwd(OUT_B, 50);
+              Off(OUT_AB);
+              OnFwd(OUT_A, 100);
+              Wait(500);
+              OnRev(OUT_B, 100);
+              Wait(500);
+              break;
+         }
+
+     }
+}
+
+sub cle(){
+
+    SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+    SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+    SetSensorUltrasonic(IN_3);
+    int i,w,x,y,z,count=0,dist=20;
+
+    while(true)                                                                //Recupérer la clé partie 1
+     {
+          SetSensorColorFull(S1);
+          ColorSensorReadType csr;
+          csr.Port = S1;
+          SysColorSensorRead(csr);
+
+          OnFwd(OUT_A,53);
+          OnFwd(OUT_B,50);
+
+          if(csr.ColorValue == 1)
+          {
+              Off(OUT_AB);
+              Wait(100);
+              PlayToneEx(880,150,VOL,FALSE);
+              Wait(175);
+              PlayToneEx(830,150,VOL,FALSE);
+              Wait(175);
+              PlayToneEx(622,150,VOL,FALSE);
+              Wait(175);
+              PlayToneEx(440,150,VOL,FALSE);
+              Wait(175);
+              PlayToneEx(416,150,VOL,FALSE);
+              Wait(175);
+              PlayToneEx(660,150,VOL,FALSE);
+              Wait(175);
+              PlayToneEx(830,150,VOL,FALSE);
+              Wait(175);
+              PlayToneEx(1046,150,VOL,FALSE);
+              Wait(500);
+          }
+              OnRev(OUT_A, 57);
+              OnRev(OUT_B, 50);
+              Wait(1500);
+              RotateMotor(OUT_A, 57, -210);
+              RotateMotor(OUT_B, 50, 210);
+              OnFwd(OUT_A,57);
+              OnFwd(OUT_B,50);
+
+              if (SensorUS(IN_3) < 20)
+              {
+                 Off(OUT_AB);
+                 RotateMotor(OUT_A, 53, -210);
+                 RotateMotor(OUT_B, 50, 210);
+              }
+
+              OnFwd(OUT_A,53);
+              OnFwd(OUT_B,50);
+
+              if (csr.ColorValue == 3)
+              {
+                  Off(OUT_AB);
+                  Wait(1000);
+                  break;
+              }
+       }
+
+       while (true)                                                             //Recupérer la clé partie 2
+       {
+            SetSensorColorFull(S1);
+            ColorSensorReadType csr;
+            csr.Port = S1;
+            SysColorSensorRead(csr);
+
+            OnFwd(OUT_A, 53);
+            OnFwd(OUT_B, 50);
+
+            if (SensorUS(IN_3) < 15)
+            {
+                Off(OUT_AB);
+                RotateMotor(OUT_A, 53, 210);
+                RotateMotor(OUT_B, 50, -210);
+            }
+
+            if (csr.ColorValue == 2)
+            {
+                break;
+            }
+       }
+}
+
+task main()
+{
+
+     /*SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+     SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+     SetSensorUltrasonic(IN_3);
+     int i,w,x,y,z,count=0,dist=20;
+
+     while (true)                                                              //Un Petit Cafe
+     {
+           SetSensorColorFull(S1);
+           ColorSensorReadType csr;
+           csr.Port = S1;
+           SysColorSensorRead(csr);
+           if (csr.Result == NO_ERR) {
+           NumOut(0, LCD_LINE1, csr.ColorValue);
+              if (csr.ColorValue != 5)
+              {
+                  OnFwd(OUT_B, 50);
+                  OnFwd(OUT_A, 53);
+              }
+              else
+              {
+                  Off(OUT_AB);
+                  Wait(100);
+                  OnFwd(OUT_A, 50);
+                  OnRev(OUT_B, 50);
+                  Wait(750);
+                  break;
+              }
+           }
+       }*/
+//////////////////////////////////////////////////////////////AXEL///////////////////////////////////////////////////
+       SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+SetSensorUltrasonic(IN_3);
+SetSensorUltrasonic(IN_4);
+int i,w,x,y,z,count=0,dist=20;
+
+while (true)
+{
+NumOut(0, LCD_LINE3, deportation);
+SetSensorColorFull(S1);
+ColorSensorReadType csr;
+csr.Port = S1;
+SysColorSensorRead(csr);
+if (csr.Result == NO_ERR)
+{
+NumOut(0, LCD_LINE2, csr.ColorValue);
+if (csr.ColorValue != 5)
+{
+depart();
+}
+// Il tombe sur la couleur rouge !
+else
+{
+break;
+}
+}
+}
+
+premierefoisrouge = 1;
+compteurpremierefois = 0;
+deportation = 0;
+SetSensorType(IN_2, SENSOR_TYPE_TOUCH);
+//ligne rouge
+while(true)
+{
+SetSensorColorFull(S1);
+ColorSensorReadType csr;
+csr.Port = S1;
+SysColorSensorRead(csr);
+
+if(premierefoisrouge == 1) //si on arrive pour la premiere fois dans le rouge
+{ //on tourne a droite jusqu'a etre le long de la ligne
+ClearScreen();
+NumOut(0, LCD_LINE7, SensorUS(IN_3));
+NumOut(0, LCD_LINE8, SensorUS(IN_4));
+if(SensorUS(IN_3)>30 && SensorUS(IN_4)<100)
+{
+OnFwd(OUT_B,25);
+OnRev(OUT_A,25);
+Wait(20);
+}
+else premierefoisrouge = 0;
+}
+else
+{
+suivre_ligne();
+}
+SetSensorTouch(S2);
+ReadSensorHTTouchMultiplexer(S2,w,x,y,z);
+if (w)
+{
+Off(OUT_AB);
+Wait(500);
+OnRev(OUT_AB,50);
+Wait(1000);
+Off(OUT_AB);
+OnRev(OUT_B,100);
+OnFwd(OUT_A,100);
+Wait(1750);
+Off(OUT_AB);
+
+break;
+}
+
+}
+
+/////////////////////////////////////////////////////////////////////FIN AXEL///////////////////////////////////////////////////////
+
+     canape();
+     
+     locaux();
+
+     humeur();
+
+     cle();
+     
+
+       
+       while (true)                                                             //Recupérer la clé partie 2
+       {
+            SetSensorColorFull(S1);
+            ColorSensorReadType csr;
+            csr.Port = S1;
+            SysColorSensorRead(csr);
+
+            OnFwd(OUT_A, 53);
+            OnFwd(OUT_B, 50);
+            
+            if (SensorUS(IN_3) < 15)
+            {
+                Off(OUT_AB);
+                RotateMotor(OUT_A, 53, 210);
+                RotateMotor(OUT_B, 50, -210);
+            }
+
+            if (csr.ColorValue == 2)
+            {
+                break;
+            }
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

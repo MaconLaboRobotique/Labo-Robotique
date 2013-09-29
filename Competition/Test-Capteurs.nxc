@@ -1,0 +1,8 @@
+task main() {
+
+     SetSensorType(IN_1, SENSOR_TYPE_COLORFULL);
+     int x;
+
+
+
+}
